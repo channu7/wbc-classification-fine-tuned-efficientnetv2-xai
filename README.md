@@ -1,7 +1,8 @@
 # 🧬 Explainable AI-Based White Blood Cell (WBC) Classification Using EfficientNetV2L  
 # XAI-Driven Fine-Tuned EfficientNetV2 Model for White Blood Cell Classification
 ## 📘 Abstract
-Automated recognition of white blood cells (WBCs) is essential for AQ1
+---
+Automated recognition of white blood cells (WBCs) is essential for 
 rapid and reliable hematological diagnosis. This study presents a deep learning
 approach using the EfficientNetV2L architecture with a customized classification
 head for multiclass WBC classification. The model was trained in two stages: an
