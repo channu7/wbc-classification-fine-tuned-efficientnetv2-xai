@@ -1,4 +1,18 @@
 # 🧬 Explainable AI-Based White Blood Cell (WBC) Classification Using EfficientNetV2L  
+# XAI-Driven Fine-Tuned EfficientNetV2 Model for White Blood Cell Classification
+## 📘 Abstract
+Automated recognition of white blood cells (WBCs) is essential for AQ1
+rapid and reliable hematological diagnosis. This study presents a deep learning
+approach using the EfficientNetV2L architecture with a customized classification
+head for multiclass WBC classification. The model was trained in two stages: an
+initial phase where the classifier head was optimized with the backbone frozen,
+followed by fine-tuning of the deeper layers. To improve generalization, dropout,
+L2 regularization, and label smoothing were incorporated. The proposed framework achieved an overall accuracy of 99%, with class-wise F1-scores ranging
+between 0.95 and 0.99. Confusion matrix analysis confirmed minimal misclassification, and the ROC curves yielded near-perfect AUC values across all five classes.
+These findings demonstrate that the proposed EfficientNetV2L-based model is
+highly effective for robust and reliable WBC classification, indicating its potential
+application in clinical decision support systems.
+---
 
 ## 📘 Project Overview  
 This project presents an **Explainable AI (XAI)**-driven approach for **automated classification of white blood cells (WBCs)** using the **Raabin-WBC dataset**.  
